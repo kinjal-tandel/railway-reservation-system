@@ -29,20 +29,6 @@ A responsive Railway Reservation System website built using HTML, CSS, and JavaS
 2. Open the project folder.
 3. Run `index.html` in any modern web browser.
 
-## Screenshots
-
-### Home page
-![Home page](home.png)
-
-### Train inquiry
-![Train inquiry](inquiry.png)
-
-### Ticket booking
-![Ticket booking](booking.png)
-
-### PNR status
-![PNR status](pnr.png)
-
 ## Future Improvements
 - User Authentication
 - Database Integration
