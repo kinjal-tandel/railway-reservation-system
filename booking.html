@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Ticket</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h1>Booking</h1>
+  <div class="card">
+  <label>Name: </label>
+  <input type="text" id="name" placeholder="Enter Name"><br><br>
+  <label>Age: </label>
+  <input type="number" id="age" placeholder="Enter Age"><br><br>
+  <label>Gender: </label>
+  <select id="gender">
+    <option value="">Select Gender</option>
+    <option>Male</option>
+    <option>Female</option>
+  </select><br><br>
+  
+  <label>Number: </label>
+  <input type="text" id="phone" maxlength="10" placeholder="Enter Phone Number"><br><br>
+  <label>Email: </label>
+  <input type="email" id="email" placeholder="Enter Email"><br><br>
+  <label>Class: </label>
+  <select id="class">
+    <option value="">Select</option>
+    <option>General</option>
+    <option>Sleeper</option>
+    <option>AC</option>
+  </select><br><br>
+  <label>Seat Type: </label>
+<select id="seatType">
+  <option value="">Select</option>
+  <option>Window</option>
+  <option>Middle</option>
+  <option>Aisle</option>
+</select><br><br>
+
+  <button onclick="bookTicket()">Confirm Booking</button><br><br>
+
+  <pre id="ticket"></pre>
+  
+  <button onclick="makePayment()">Proceed to Payment</button>
+  
+  <a href="index.html"><button class="back">Back</button></a>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
