@@ -16,6 +16,7 @@ A responsive Railway Reservation System website built using HTML, CSS, and JavaS
 - pnr.html → PNR Status
 - schedule.html → Train Schedule
 - help.html → Help & Support
+- about.html → About project
 - style.css → Styling
 - script.js → JavaScript Functionality
 
